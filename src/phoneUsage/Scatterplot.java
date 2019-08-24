@@ -26,6 +26,7 @@ public class Scatterplot {
 		controller.setView(view);
 		view.addMouseListener(controller);
 		view.addMouseMotionListener(controller);
+		view.addMouseWheelListener(controller);
 		//view.addKeyListener(key);
 	}
 	
